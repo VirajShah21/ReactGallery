@@ -1,0 +1,21 @@
+.component-card {
+    box-shadow: var(--light-shadow);
+    width: 25%;
+    justify-content: flex-start;
+    border-radius: var(--big-corner-radius);
+}
+
+.component-card .component-thumbnail {
+    width: 100%;
+}
+
+.component-card .component-details {
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--small-padding);
+}
+
+.component-card p {
+    margin: 0;
+}

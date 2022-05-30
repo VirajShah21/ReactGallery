@@ -9,6 +9,10 @@
     --info: teal;
     --muted: rgba(0, 0, 0, 0.1);
     --light-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    --corner-radius: 0.5em;
+    --big-corner-radius: 1em;
+    --small-padding: 0.5rem;
+    --big-padding: 1rem;
 }
 
 @font-face {
