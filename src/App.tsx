@@ -16,6 +16,7 @@ function App() {
                 name='RGB Color Picker'
                 component='RGBColorPicker'
                 description='Use basic sliders to pick a color, any color.'
+                demo={<div>Hi</div>}
             />
         </VStack>
     );

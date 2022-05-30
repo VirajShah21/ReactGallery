@@ -12,7 +12,8 @@
     --corner-radius: 0.5em;
     --big-corner-radius: 1em;
     --small-padding: 0.5rem;
-    --big-padding: 1rem;
+    --big-padding: 5rem;
+    --blur: 1rem;
 }
 
 @font-face {
