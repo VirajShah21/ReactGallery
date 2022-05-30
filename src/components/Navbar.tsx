@@ -9,6 +9,13 @@ function Navbar() {
             <HStack className='navbar-main' justify='between'>
                 <h1 className='navbar-brand'>React Gallery</h1>
                 <TextField icon={<SearchIcon />} placeholder='Search' />
+                <div>
+                    Theme:
+                    <select>
+                        <option value='white'>White</option>
+                        <option value='black'>Black</option>
+                    </select>
+                </div>
             </HStack>
             <HStack className='navbar-submenu'></HStack>
         </VStack>

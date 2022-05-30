@@ -1,3 +1,16 @@
+:root {
+    --text: black;
+    --background: white;
+    --primary: blue;
+    --secondary: gray;
+    --success: green;
+    --danger: red;
+    --warning: yellow;
+    --info: teal;
+    --muted: rgba(0, 0, 0, 0.1);
+    --light-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+}
+
 @font-face {
     font-family: ProductSans;
     src: url('./fonts/Product\ Sans\ Regular.ttf');

@@ -1,5 +1,5 @@
 .textfield {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--muted);
     padding: 0.5em;
     border-radius: 0.5em;
     color: gray;
