@@ -1,0 +1,31 @@
+.datasheet table.datasheet-table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.datasheet table.datasheet-table .row-number,
+.datasheet table.datasheet-table .col-number {
+    padding: 0;
+    text-align: center;
+    font-size: var(--text-small);
+    background-color: var(--muted);
+    font-weight: bold;
+}
+
+.datasheet table.datasheet-table td {
+    border: var(--light-border);
+    padding: var(--small-padding);
+    transition: 0.5s all;
+}
+
+.datasheet table.datasheet-table td.editing {
+    background-color: var(--muted);
+}
+
+.datasheet .cell-edit-input {
+    border: none;
+    background-color: transparent;
+    font: inherit;
+    width: 100%;
+    outline: none;
+}

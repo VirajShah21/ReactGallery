@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import DataSheet from './DataSheet';
 import RGBColorPicker, { RGBAColor } from './RGBColorPicker';
 
 function RGBColorPickerDemo() {
@@ -7,4 +8,8 @@ function RGBColorPickerDemo() {
     return <RGBColorPicker {...color} onChange={color => setColor(color)} />;
 }
 
-export { RGBColorPickerDemo };
+function DataSheetDemo() {
+    return <DataSheet />;
+}
+
+export { RGBColorPickerDemo, DataSheetDemo };

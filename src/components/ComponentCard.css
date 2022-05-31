@@ -3,6 +3,7 @@
     width: 25%;
     justify-content: flex-start;
     border-radius: var(--medium-corner-radius);
+    overflow: hidden;
 }
 
 .component-card .component-thumbnail {

@@ -1,4 +1,4 @@
-import { VStack } from 'reaction';
+import { HStack, VStack } from 'reaction';
 import './App.css';
 import ComponentCard from './components/ComponentCard';
 import Navbar from './components/Navbar';
@@ -11,9 +11,11 @@ function App() {
 
             <div style={{ height: '50px' }} />
 
-            {ComponentManifest.map(definition => (
-                <ComponentCard {...definition} />
-            ))}
+            <HStack className='component-gallery'>
+                {ComponentManifest.map(definition => (
+                    <ComponentCard {...definition} />
+                ))}
+            </HStack>
         </VStack>
     );
 }
