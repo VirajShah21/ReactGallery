@@ -1,14 +1,14 @@
 import { SearchIcon } from '@primer/octicons-react';
 import { HStack, VStack } from 'reaction';
 import './Navbar.css';
-import TextField from './TextField';
+import { TextField } from './InputFields';
 
 function Navbar() {
     return (
         <VStack className='navbar' width='100%'>
             <HStack className='navbar-main' justify='between'>
                 <h1 className='navbar-brand'>React Gallery</h1>
-                <TextField icon={<SearchIcon />} placeholder='Search' />
+                <TextField icon={<SearchIcon />} placeholder='Search' className='navbar-search' />
                 <div>
                     Theme:
                     <select>

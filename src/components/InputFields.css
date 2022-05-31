@@ -1,0 +1,19 @@
+.input-field {
+    border: var(--light-border);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: gray;
+}
+
+.input-field.input-field-small {
+    font-size: var(--text-small);
+}
+
+.input-field .input-field-input {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    flex-grow: 1;
+    max-width: 100%;
+}

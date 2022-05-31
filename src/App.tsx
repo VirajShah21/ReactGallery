@@ -2,7 +2,7 @@ import { VStack } from 'reaction';
 import './App.css';
 import ComponentCard from './components/ComponentCard';
 import Navbar from './components/Navbar';
-import rgbColorPickerThumbnail from './resources/images/thumbnails/rgb-color-picker.png';
+import ComponentManifest from './utils/ComponentManifest';
 
 function App() {
     return (
@@ -11,13 +11,9 @@ function App() {
 
             <div style={{ height: '50px' }} />
 
-            <ComponentCard
-                thumb={rgbColorPickerThumbnail}
-                name='RGB Color Picker'
-                component='RGBColorPicker'
-                description='Use basic sliders to pick a color, any color.'
-                demo={<div>Hi</div>}
-            />
+            {ComponentManifest.map(definition => (
+                <ComponentCard {...definition} />
+            ))}
         </VStack>
     );
 }

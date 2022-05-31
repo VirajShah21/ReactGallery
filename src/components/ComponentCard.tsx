@@ -16,7 +16,9 @@ function ComponentCard({ thumb, name, component, description, demo }: ComponentC
                     <p>{description}</p>
                 </VStack>
             </VStack>
-            {showingDemo && <ComponentDemo name={name} demo={demo} />}
+            {showingDemo && (
+                <ComponentDemo name={name} demo={demo} onClose={() => setShowingDemo(false)} />
+            )}
         </>
     );
 }

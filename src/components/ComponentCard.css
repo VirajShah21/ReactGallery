@@ -2,7 +2,7 @@
     box-shadow: var(--light-shadow);
     width: 25%;
     justify-content: flex-start;
-    border-radius: var(--big-corner-radius);
+    border-radius: var(--medium-corner-radius);
 }
 
 .component-card .component-thumbnail {

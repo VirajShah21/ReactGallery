@@ -1,0 +1,28 @@
+.rgb-color-picker {
+    box-shadow: var(--light-shadow);
+    padding: var(--small-padding);
+    border-radius: var(--medium-corner-radius);
+}
+
+.rgb-color-picker .rgb-slider,
+.rgb-color-picker .opacity-slider {
+    margin-bottom: var(--small-padding);
+}
+
+.rgb-color-picker .rgb-slider input[type='range'],
+.rgb-color-picker .opacity-slider input[type='range'] {
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: var(--medium-corner-radius);
+}
+
+.rgb-color-picker .rgb-slider .number-field,
+.rgb-color-picker .opacity-slider .number-field {
+    width: 3rem;
+}
+
+.rgb-color-picker .rgb-color-preview {
+    box-sizing: border-box;
+    padding: var(--small-padding);
+    border-radius: var(--small-corner-radius);
+}
